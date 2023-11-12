@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(243, 236, 236);
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin: 80px auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 50px;
+    width: 800px;
+}
+.main1{
+    width: 300px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin-top: 50px;
+     border-radius: 15px 0 0 15px ;
+}
+.main1 img{
+     border-radius: 15px 0 0 15px ;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.main2{
+    width: 500px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;    
+    color: white;
+    border-radius: 0 15px 15px 0px;
+    background-color: black;
+    margin-top: 50px;
+
+}
+.main2 h1{
+    font-size: 2.5rem;
+    word-spacing: 15px;
+    margin: 10px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+.title{
+    margin: 15px;
+
+    word-spacing: 15px;
+}
+.title span{
+    word-spacing: 1.5px;
+    margin-left: 10px;
+}
+
+.para1{
+    margin: 15px;
+    word-spacing: 10px;
+    width: 90%;
+    text-align: justify;
+}
+.read{
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: none;
+    border: none;
+    background-color: black;
+    color: rgb(255, 186, 10) ;
+    margin: 15px;
+    display: block;
+}
+.read:hover{
+    color: white;
+    transition: all 0.5s;
+}
+.watch{
+    background-color: black;
+    color: rgb(255, 186, 10) ;
+    padding: 10px 25px;
+    font-size: 1rem;
+    border: 2px solid yellow;
+    margin: 15px;
+    border-radius: 10px;
+}
+.watch:hover{
+    background-color: rgb(255, 186, 10);
+    color: white;
+    border: 2px solid black;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
